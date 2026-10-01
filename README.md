@@ -16,21 +16,28 @@ TP de algoritmos y estructuras 1
 
 ## Tema del Proyecto
 
-**Sistema de venta de pasajes**
+**Sistema de gestión de pasajes**
 
 ## Descripción del Proyecto
 
-El sistema está diseñado para administrar el proceso de venta y emisión de pasajes de transporte, vinculando a los clientes con los distintos destinos disponibles. 
+El sistema para administrar el proceso de venta y gestión de pasajes de micros, vinculando a los clientes con los distintos destino disponibles, sucursales, vendedores etc. Nos circunscribiremos a pasajes de Bus dentro de Argentina.
 
-Su propósito principal es brindar una solución centralizada para gestionar el registro de compradores, administrar la oferta de destinos y registrar cada transacción comercial. 
+Su propósito principal es brindar una solución centralizada para gestionar el registro de compradores, vendedores, sucursales, administrar la oferta de destinos y registrar cada pasaje
 
-De esta manera, permite estructurar el historial de viajes y generar métricas clave sobre la demanda por destino y el rendimiento de las ventas.
+De esta manera, permitirá estructurar el historial de viajes y generar métricas. Realizar altas, bajas, modificaciones y consultas de las distintas entidades
 
 ## Listado de Funcionalidades
 
-### Gestión de Entidades (CRUD)
+
+* ### Gestión de Entidades (CRUD)
+
 * **Clientes:** Alta, baja, modificación y consulta de la información de los pasajeros.
-* **Destinos:** Alta, baja, modificación y consulta de las localidades/ciudades disponibles.
+* **Origen:** Alta, baja, modificación y consulta de las ciudades/localidades de partida.
+* **Destinos:** Alta, baja, modificación y consulta de las ciudades/localidades de llegada.
+* **Sucursales:** Alta, baja, modificación y consulta de los puntos de venta habilitados.
+* **Vendedores:** Alta, baja, modificación y consulta de los empleados de atención y emisión.
+* **Formas de Pago:** Alta, baja, modificación y consulta de los medios de pago aceptados (efectivo, tarjeta de crédito/débito, transferencia, etc.).
+* **Pasajes:** Alta (emisión), baja (cancelación/anulación), modificación (reprogramación) y consulta de los pasajes registrados, vinculando cliente, origen, destino, sucursal, vendedor, forma de pago, fecha y monto.
 
 ### Operaciones de Pasajes
 * Emisión y registro de nuevos pasajes (asociando cliente, destino, fecha y monto).
