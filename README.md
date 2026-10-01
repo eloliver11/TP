@@ -32,8 +32,7 @@ De esta manera, permitirá estructurar el historial de viajes y generar métrica
 * ### Gestión de Entidades (CRUD)
 
 * **Clientes:** Alta, baja, modificación y consulta de la información de los pasajeros.
-* **Origen:** Alta, baja, modificación y consulta de las ciudades/localidades de partida.
-* **Destinos:** Alta, baja, modificación y consulta de las ciudades/localidades de llegada.
+* **Ciudades:** Alta, baja, modificación y consulta de las ciudades/localidades de partida.
 * **Sucursales:** Alta, baja, modificación y consulta de los puntos de venta habilitados.
 * **Vendedores:** Alta, baja, modificación y consulta de los empleados de atención y emisión.
 * **Formas de Pago:** Alta, baja, modificación y consulta de los medios de pago aceptados (efectivo, tarjeta de crédito/débito, transferencia, etc.).
